@@ -1,0 +1,110 @@
+/* CSS declarations go here */
+.circle {
+	display: inline-block;
+	vertical-align: middle;
+	width: 30px;
+	height: 30px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	-webkit-border-radius: 99em;
+	-moz-border-radius: 99em;
+	border-radius: 99em;
+	border: 1px solid #eee;
+	box-shadow: 0 3px 2px rgba(0, 0, 0, 0.3);  
+	padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/*.navbar-nav>li>a.profile-image {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}*/
+
+.slider-size {
+	height: 500px; /* This is your slider height */
+}
+.carousel {
+	width:100%; 
+	margin:0 auto; /* center your carousel if other than 100% */ 
+	height:500px;
+}
+
+#masthead {
+	width:100%; 
+	margin:0 auto; /* center your carousel if other than 100% */ 
+	height:500px;
+	background:url('/back6.jpg') center center;
+	background-size: cover;
+}
+/*
+	Styling for the home page
+*/
+
+.navbar-app{
+	background: transparent;
+	border: 0px;
+}
+
+.navbar-app > a:hover {
+	color: white;
+}
+
+.navbar-inverse .navbar-brand {
+     color: white;
+}
+
+.carousel-control {
+    display: none;
+}
+
+.navbar-app .navbar-nav > li > a {
+color: white;
+}
+
+.navbar-app .navbar-nav > li > a:hover {
+color: white;
+}
+
+.navbar-app .navbar-brand {
+color: white;
+}
+
+.navbar-app .navbar-brand a:hover{
+color: white;
+}
+
+
+/*
+	App body Styling
+*/
+
+.center-text{
+	text-align: center;
+	margin-top: 1.5rem;
+}
+
+body{
+	background-color: #edefed;
+
+}
+
+.selected{
+	margin-top: 2rem;
+}
+
+.picture{
+	height: 344px;
+}
+
+.col-8{
+	width: 	65.6%;
+}
+
+.col-4{
+	width: 31.3%;
+}
+
+.margin-right{
+	margin-right: 3%
+}
