@@ -17,7 +17,7 @@ $(document).ready(function(){
  }
  
  var currImg = 1;
- var intID = setInterval(changeImg, 8000);
+ var intID = setInterval(changeImg, 15000);
  
  /* image rotator */
  function changeImg(){

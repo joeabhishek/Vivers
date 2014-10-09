@@ -1,4 +1,10 @@
-/* CSS declarations go here */
+/* Carousel */
+
+.carousel-container{
+	width: 100%;
+	padding-left: 0px;
+	padding-right: 0px;
+}
 .circle {
 	display: inline-block;
 	vertical-align: middle;
@@ -36,7 +42,35 @@
 	height:500px;
 	background:url('/back6.jpg') center center;
 	background-size: cover;
+	color: white;
+	position: relative;
 }
+
+.text-jumbo {
+	font-size: 60px;
+	font-weight: 900;
+}
+
+.text-contrast{
+	font-weight: 800px;
+	font-size: 18px;
+}
+
+.main-heading{
+	margin-top: 6rem;
+	text-align: center;
+}
+
+.search-form{
+	vertical-align: bottom;
+	bottom: 0;
+	text-align: center;
+	width: 100%;
+	position: absolute;
+	padding: 30px;
+	background: rgba(0,0,0,0.6);
+}
+
 /*
 	Styling for the home page
 */
@@ -44,6 +78,7 @@
 .navbar-app{
 	background: transparent;
 	border: 0px;
+	padding-top: 1.5rem;
 }
 
 .navbar-app > a:hover {
