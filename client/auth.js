@@ -17,15 +17,15 @@ $(document).ready(function(){
  }
  
  var currImg = 1;
- var intID = setInterval(changeImg, 15000);
+ var intID = setInterval(changeImg, 150000);
  
  /* image rotator */
  function changeImg(){
-  $('#masthead').fadeOut('fast', 'linear', function(){
+  $('#back-image').fadeOut('slow', 'linear', function(){
     $(this).css('background','url(' + preloadArr[currImg++%preloadArr.length].src +') center center');
     $(this).css('background-size', 'cover');
   });
-  $('#masthead').fadeIn(300);
+  $('#back-image').fadeIn('slow');
  }
  
 });
